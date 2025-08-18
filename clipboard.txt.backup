@@ -1,0 +1,4245 @@
+--newline--
+--CLIPBOARD-ITEM--
+local vim = vim
+
+--CLIPBOARD-ITEM--
+local line_delimiter = "\r"
+
+--CLIPBOARD-ITEM--
+	local current_win = vim.api.nvim_get_current_win()
+	local win_width = vim.api.nvim_win_get_width(current_win)
+	local win_height = vim.api.nvim_win_get_height(current_win)
+
+--CLIPBOARD-ITEM--
+-85mcf
+--CLIPBOARD-ITEM--
+commands-scheduler-28691845-85mcf
+--CLIPBOARD-ITEM--
+dashboard-deployment-production-55ffc6c586-bzjrc
+--CLIPBOARD-ITEM--
+commands-scheduler-28692512-vcpxv 
+--CLIPBOARD-ITEM--
+dashboard-deployment-production-5cc46d55f9-t2t9l
+--CLIPBOARD-ITEM--
+168d
+--CLIPBOARD-ITEM--
+34.88.185.114
+--CLIPBOARD-ITEM--
+https://tradedesk.mediapal.net/#/?tab=active
+--CLIPBOARD-ITEM--
+commands-scheduler-28692518-gfl6q
+--CLIPBOARD-ITEM--
+nn6wt
+--CLIPBOARD-ITEM--
+dashboard-deployment-production-5cc46d55f9-t2t9l
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+Pratyush  Thapliyal INV GP019.pdf
+--CLIPBOARD-ITEM--
+-- Create a new junction table 
+CREATE table dsp.campaign_target (
+campaign_id INT REFERENCES dsp.campaigns(id),
+target_id INT REFERENCES dsp.targets(id),
+PRIMARY KEY (campaign_id,target_id)
+)
+
+--CLIPBOARD-ITEM--
+{
+  "DistributionchannelOneof": {
+    "Site": {
+      "page": "https://techcrunchabc.xyz/landing",
+      "publisher": {
+        "id": "pub-3125188477567991"
+      },
+      "content": {
+        "livestream": false,
+        "language": "en"
+      }
+    }
+  },
+  "id": "50oUpzt_EoIRV98Us5qjjw",
+  "imp": [
+    {
+      "id": "1",
+      "banner": {
+        "w": 336,
+        "h": 280,
+        "format": [
+          {
+            "w": 336,
+            "h": 280
+          },
+          {
+            "w": 360,
+            "h": 450
+          }
+        ],
+        "pos": 3
+      },
+      "tagid": "2978427311",
+      "bidfloor": 0.01,
+      "bidfloorcur": "USD",
+      "secure": true,
+      "exp": 3600,
+      "metric": [
+        {
+          "type": "viewability",
+          "value": 0.42,
+          "vendor": "EXCHANGE"
+        }
+      ]
+    }
+  ],
+  "device": {
+    "geo": {
+      "lat": -15.42,
+      "lon": 28.28,
+      "country": "ZMB",
+      "city": "Lusaka",
+      "type": 2,
+      "accuracy": 13502,
+      "utcoffset": 120
+    },
+    "lmt": false,
+    "ua": "Mozilla/5.0 (Linux; Android 11; TECNO KG5j Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.134 Mobile Safari/537.36",
+    "sua": {
+      "browsers": [
+        {
+          "brand": "Not/A)Brand",
+          "version": [
+            "8",
+            "0",
+            "0",
+            "0"
+          ]
+        },
+        {
+          "brand": "Chromium",
+          "version": [
+            "126",
+            "0",
+            "6478",
+            "134"
+          ]
+        },
+        {
+          "brand": "Android WebView",
+          "version": [
+            "126",
+            "0",
+            "6478",
+            "134"
+          ]
+        }
+      ],
+      "platform": {
+        "brand": "Android",
+        "version": [
+          "11",
+          "0",
+          "0"
+        ]
+      },
+      "mobile": true,
+      "model": "TECNO KG5j",
+      "source": 2
+    },
+    "ipv6": "2c0f:2a80:1236::",
+    "devicetype": 4,
+    "make": "Tecno",
+    "model": "kg5j",
+    "os": "android",
+    "osv": "11",
+    "w": 360,
+    "h": 806,
+    "pxratio": 2
+  },
+  "regs": {
+    "gpp": "",
+    "gpp_sid": [
+      -1
+    ]
+  },
+  "user": {},
+  "at": 1,
+  "tmax": 300,
+  "cur": [
+    "USD"
+  ],
+  "source": {
+    "schain": {
+      "complete": true,
+      "nodes": [
+        {
+          "asi": "google.com",
+          "sid": "pub-3125188477567991",
+          "hp": true
+        }
+      ],
+      "ver": "1.0"
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+{
+    "DistributionchannelOneof": {
+        "Site": {
+            "page": "https://techcrunchabc.xyz/landing",
+            "publisher": {
+                "id": "pub-3125188477567991"
+            },
+            "content": {
+                "livestream": false,
+                "language": "en"
+            }
+        }
+    },
+    "id": "50oUpzt_EoIRV98Us5qjjw",
+    "imp": [
+        {
+            "id": "1",
+            "banner": {
+                "w": 336,
+                "h": 280,
+                "format": [
+                    {
+                        "w": 336,
+                        "h": 280
+                    },
+                    {
+                        "w": 360,
+                        "h": 450
+                    }
+                ],
+                "pos": 3
+            },
+            "tagid": "2978427311",
+            "bidfloor": 0.01,
+            "bidfloorcur": "USD",
+            "secure": true,
+            "exp": 3600,
+            "metric": [
+                {
+                    "type": "viewability",
+                    "value": 0.42,
+                    "vendor": "EXCHANGE"
+                }
+            ]
+        }
+    ],
+    "device": {
+        "geo": {
+            "lat": -15.42,
+            "lon": 28.28,
+            "country": "ZMB",
+            "city": "Lusaka",
+            "type": 2,
+            "accuracy": 13502,
+            "utcoffset": 120
+        },
+        "lmt": false,
+        "ua": "Mozilla/5.0 (Linux; Android 11; TECNO KG5j Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.134 Mobile Safari/537.36",
+        "sua": {
+            "browsers": [
+                {
+                    "brand": "Not/A)Brand",
+                    "version": [
+                        "8",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "brand": "Chromium",
+                    "version": [
+                        "126",
+                        "0",
+                        "6478",
+                        "134"
+                    ]
+                },
+                {
+                    "brand": "Android WebView",
+                    "version": [
+                        "126",
+                        "0",
+                        "6478",
+                        "134"
+                    ]
+                }
+            ],
+            "platform": {
+                "brand": "Android",
+                "version": [
+                    "11",
+                    "0",
+                    "0"
+                ]
+            },
+            "mobile": true,
+            "model": "TECNO KG5j",
+            "source": 2
+        },
+        "ipv6": "2c0f:2a80:1236::",
+        "devicetype": 4,
+        "make": "Tecno",
+        "model": "kg5j",
+        "os": "android",
+        "osv": "11",
+        "w": 360,
+        "h": 806,
+        "pxratio": 2
+    },
+    "regs": {
+        "gpp": "",
+        "gpp_sid": [
+            -1
+        ]
+    },
+    "user": {},
+    "at": 1,
+    "tmax": 300,
+    "cur": [
+        "USD"
+    ],
+    "source": {
+        "schain": {
+            "complete": true,
+            "nodes": [
+                {
+                    "asi": "google.com",
+                    "sid": "pub-3125188477567991",
+                    "hp": true
+                }
+            ],
+            "ver": "1.0"
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+publisher information/website/app where user is viewing the ad:
+
+```
+"name": "NovelUP —Novel Downloader",
+"bundle": "com.cloudview.novel",
+"publisher": {
+    "id": "pub-7178868422353721"
+},
+"content": {
+    "url": "https://m.novel-up.com/ns",
+    "userrating": "4.4",
+    "livestream": false,
+    "language": "en"
+}
+```
+
+user device and geolocation information :
+
+```
+
+"ip": "41.90.37.0",
+"devicetype": 4,
+"make": "Samsung",
+"model": "SM-A505F",
+"os": "android",
+"osv": "11",
+"w": 412,
+"h": 812,
+"pxratio": 2.625,
+"connectiontype": 2,
+"ifa": "ba85a62f-bbba-4a23-af87-0ec72610cec5"//DEVICE ID OF USER
+
+
+```
+
+```
+"geo": {
+   "lat": -4.04,
+   "lon": 39.67,
+   "country": "KEN",
+   "city": "Mombasa",
+   "type": 2,
+   "accuracy": 7327,
+   "utcoffset": 180
+},
+```
+
+--CLIPBOARD-ITEM--
+ "Site": {
+            "page": "https://techcrunchabc.xyz/landing",
+            "publisher": {
+                "id": "pub-3125188477567991"
+            },
+            "content": {
+                "livestream": false,
+                "language": "en"
+            }
+        }
+--CLIPBOARD-ITEM--
+    "Site": {
+            "page": "https://techcrunchabc.xyz/landing",
+            "publisher": {
+                "id": "pub-3125188477567991"
+            },
+            "content": {
+                "livestream": false,
+                "language": "en"
+            }
+        }
+--CLIPBOARD-ITEM--
+ "App": {
+      "name": "Opera Mini: Fast Web Browser",
+      "bundle": "com.opera.mini.native",
+      "publisher": {
+        "id": "pub-4721105574136909"
+      },
+      "content": {
+        "url": "https://stories.apexnews-af.com/news/detail/c17f5e250392150800031ed7be9f3e45",
+        "userrating": "4.4",
+        "livestream": false,
+        "language": "en"
+      }
+    }
+--CLIPBOARD-ITEM--
+"imp": [
+        {
+            "id": "1",
+            "banner": {
+                "w": 336,
+                "h": 280,
+                "format": [
+                    {
+                        "w": 336,
+                        "h": 280
+                    },
+                    {
+                        "w": 360,
+                        "h": 450
+                    }
+                ],
+                "pos": 3
+            },
+            "tagid": "2978427311",
+            "bidfloor": 0.01,
+            "bidfloorcur": "USD",
+            "secure": true,
+            "exp": 3600,
+            "metric": [
+                {
+                    "type": "viewability",
+                    "value": 0.42,
+                    "vendor": "EXCHANGE"
+                }
+            ]
+        }
+    ],
+--CLIPBOARD-ITEM--
+  "ua": "Mozilla/5.0 (Linux; Android 11; TECNO KG5j Build/RP1A.200720.011; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.134 Mobile Safari/537.36",
+        "sua": {
+            "browsers": [
+                {
+                    "brand": "Not/A)Brand",
+                    "version": [
+                        "8",
+                        "0",
+                        "0",
+                        "0"
+                    ]
+                },
+                {
+                    "brand": "Chromium",
+                    "version": [
+                        "126",
+                        "0",
+                        "6478",
+                        "134"
+                    ]
+                },
+                {
+                    "brand": "Android WebView",
+                    "version": [
+                        "126",
+                        "0",
+                        "6478",
+                        "134"
+                    ]
+                }
+            ],
+            "platform": {
+                "brand": "Android",
+                "version": [
+                    "11",
+                    "0",
+                    "0"
+                ]
+            },
+            "mobile": true,
+            "model": "TECNO KG5j",
+            "source": 2
+        },
+        "ipv6": "2c0f:2a80:1236::",
+        "devicetype": 4,
+        "make": "Tecno",
+        "model": "kg5j",
+        "os": "android",
+        "osv": "11",
+        "w": 360,
+        "h": 806,
+        "pxratio": 2
+--CLIPBOARD-ITEM--
+"geo": {
+            "lat": -15.42,
+            "lon": 28.28,
+            "country": "ZMB",
+            "city": "Lusaka",
+            "type": 2,
+            "accuracy": 13502,
+            "utcoffset": 120
+        },
+--CLIPBOARD-ITEM--
+Ad position on screen
+--CLIPBOARD-ITEM--
+Flag to indicate if the impression requires secure HTTPS URL
+creative assets and markup, where 0 = non-secure, 1 =
+secure. If omitted, the secure state is unknown, but non-
+secure HTTP support can be assumed.
+--CLIPBOARD-ITEM--
+Source of the value using exchange curated string names
+which should be published to bidders a priori. If the exchange
+itself is the source versus a third party, “EXCHANGE” is
+recommended.
+--CLIPBOARD-ITEM--
+type string; required Type of metric being presented using exchange curated string
+names which should be published to bidders a priori.
+value float; required Number representing the value of the metric. Probabilities
+must be in the range 0.0 – 1.0.
+vendor string;
+recommended
+Source of the value using exchange curated string names
+which should be published to bidders a priori. If the exchange
+itself is the source versus a third party, “EXCHANGE” is
+recommended.
+ext object Placeholder for exchange-specific extensions to OpenRTB.
+--CLIPBOARD-ITEM--
+Advisory as to the number of seconds that may elapse
+between the auction and the actual impression.
+--CLIPBOARD-ITEM--
+Identifier for specific ad placement or ad tag that was used to
+initiate the auction. This can be useful for debugging of any
+issues, or for optimization by the buye
+--CLIPBOARD-ITEM--
+Ad position on screen.
+--CLIPBOARD-ITEM--
+This object provides information pertaining to the device through which the user is interacting. Device
+information includes its hardware, platform, location, and carrier data. The device can refer to a mobile
+handset, a desktop computer, set top box, or other digital device.
+--CLIPBOARD-ITEM--
+ua
+--CLIPBOARD-ITEM--
+Browser user agent string. This field represents a raw user
+agent string from the browser. For backwards compatibility,
+exchanges are recommended to always populate ‘ua’ with the
+User-Agent string, when available from the end user’s device,
+even if an alternative representation, such as the User-Agent
+Client-Hints, is available and is used to populate ‘sua’. No
+inferred or approximated user agents are expected in this field.
+If a client supports User-Agent Client Hints, and ‘sua’ field is
+present, bidders are recommended to rely on ‘sua’ for
+detecting device type, browser type and version and other
+purposes that rely on the user agent information, and ignore
+‘ua’ field. This is because the ‘ua’ may contain a frozen or
+reduced user agent string.
+--CLIPBOARD-ITEM--
+ua string Browser user agent string. This field represents a raw user
+agent string from the browser. For backwards compatibility,
+exchanges are recommended to always populate ‘ua’ with the
+User-Agent string, when available from the end user’s device,
+even if an alternative representation, such as the User-Agent
+Client-Hints, is available and is used to populate ‘sua’. No
+inferred or approximated user agents are expected in this field.
+If a client supports User-Agent Client Hints, and ‘sua’ field is
+present, bidders are recommended to rely on ‘sua’ for
+detecting device type, browser type and version and other
+purposes that rely on the user agent information, and ignore
+‘ua’ field. This is because the ‘ua’ may contain a frozen or
+reduced user agent string.
+sua UserAgent
+object
+Structured user agent information defined by a UserAgent
+object (see Section 3.2.29). If both ‘ua’ and ‘sua’ are present in
+the bid request, ‘sua’ should be considered the more accurate
+representation of the device attributes. This is because the ‘ua’
+may contain a frozen or reduced user agent string.
+ip string IPv4 address closest to device.
+ipv6 string IP address closest to device as IPv6.
+devicetype integer The general type of device. Refer to List: Device Types in
+AdCOM 1.0.
+make string Device make (e.g., “Apple”).
+model string Device model (e.g., “iPhone”).
+os string Device operating system (e.g., “iOS”).
+osv string Device operating system version (e.g., “3.1.2”).
+hwv string Hardware version of the device (e.g., “5S” for iPhone 5S).
+h integer Physical height of the screen in pixels.
+w integer Physical width of the screen in pixels.
+ppi integer Screen size as pixels per linear inch.
+pxratio float The ratio of physical pixels to device independent pixels.
+js integer Support for JavaScript, where 0 = no, 1 = yes.
+geofetch integer Indicates if the geolocation API will be available to JavaScript
+code running in the banner, where 0 = no, 1 = yes.
+flashver string Version of Flash supported by the browser.
+language string Browser language using ISO-639-1-alpha-2. Only one of
+language or langb should be present.
+langb string Browser language using IETF BCP 47. Only one of language or
+langb should be present.
+carrier string Carrier or ISP (e.g., “VERIZON”) using exchange curated string
+names which should be published to bidders a priori.
+--CLIPBOARD-ITEM--
+ua string Browser user agent string. This field represents a raw user
+agent string from the browser. For backwards compatibility,
+exchanges are recommended to always populate ‘ua’ with the
+User-Agent string, when available from the end user’s device,
+even if an alternative representation, such as the User-Agent
+Client-Hints, is available and is used to populate ‘sua’. No
+inferred or approximated user agents are expected in this field.
+If a client supports User-Agent Client Hints, and ‘sua’ field is
+present, bidders are recommended to rely on ‘sua’ for
+detecting device type, browser type and version and other
+purposes that rely on the user agent information, and ignore
+‘ua’ field. This is because the ‘ua’ may contain a frozen or
+reduced user agent string.
+sua UserAgent
+object
+Structured user agent information defined by a UserAgent
+object (see Section 3.2.29). If both ‘ua’ and ‘sua’ are present in
+the bid request, ‘sua’ should be considered the more accurate
+representation of the device attributes. This is because the ‘ua’
+may contain a frozen or reduced user agent string.
+ip string IPv4 address closest to device.
+ipv6 string IP address closest to device as IPv6.
+devicetype integer The general type of device. Refer to List: Device Types in
+AdCOM 1.0.
+make string Device make (e.g., “Apple”).
+model string Device model (e.g., “iPhone”).
+os string Device operating system (e.g., “iOS”).
+osv string Device operating system version (e.g., “3.1.2”).
+hwv string Hardware version of the device (e.g., “5S” for iPhone 5S).
+h integer Physical height of the screen in pixels.
+w integer Physical width of the screen in pixels.
+ppi integer Screen size as pixels per linear inch.
+pxratio float The ratio of physical pixels to device independent pixels.
+js integer Support for JavaScript, where 0 = no, 1 = yes.
+geofetch integer Indicates if the geolocation API will be available to JavaScript
+code running in the banner, where 0 = no, 1 = yes.
+flashver string Version of Flash supported by the browser.
+language string Browser language using ISO-639-1-alpha-2. Only one of
+language or langb should be present.
+langb string Browser language using IETF BCP 47. Only one of language or
+langb should be present.
+carrier string Carrier or ISP (e.g., “VERIZON”) using exchange curated string
+names which should be published to bidders a priori.
+--CLIPBOARD-ITEM--
+If both ‘ua’ and ‘sua’ are present in
+the bid request, ‘sua’ should be considered the more accurate
+representation of the device attributes. This is because the ‘ua’
+may contain a frozen or reduced user agent string.
+--CLIPBOARD-ITEM--
+Latitude from -90.0 to +90.0, where negative is south.
+--CLIPBOARD-ITEM--
+Longitude from -180.0 to +180.0, where negative is west.
+--CLIPBOARD-ITEM--
+Source of location data;
+--CLIPBOARD-ITEM--
+Estimated location accuracy in meters
+--CLIPBOARD-ITEM--
+Derivable information from the data about the users:
+
+- What type of content user prefers(types of websites/app the user spends their time on e.g. news websites, sport websites,game apps etc)
+
+- By observing timestamps when the user is seeing the ad, we can potentially understand their typical browsing times within the app/site, at what times they are digitally active
+ 
+- User's device information can be used to target ads for specific devices e.g. IOS users can be shown ads for IOS apps or iphone cases.
+ 
+- User's location can be used to target ads for specific locations or to show ads for local businesses. e.g. A user near a KFC can be shown and ad for the same
+ 
+- User's device type can be used to target ads for specific device types e.g. mobile, tablet, desktop 
+ 
+- User's google generated ID can be used to identify if user has multiple devices and target ads for all devices. We can identify all the devices the user is using.
+
+- User profiling can help us categorize user's into various classes based on spending habits and interests, which can be collected by the conversion data of the user and the type of ads the user interacts with in the long run
+
+- Based on User's click history on ads, we can determine what sorts of ads user is interested in and show similar ads to the user and also find what the user is not interested in and avoid showing those ads to the user for a better CTR 
+
+- Based on the type of ad the user sees - Video/banner/native, we can determine what is the best type of ad for the user and show similar ad user in future based on the user's interaction with the add
+
+- Tracking device types and models over time can reveal trends in user device preferences. e.g. User may have a Samsung galaxy A5 and might have upgraded to the an Iphone in the future.
+
+- User's general living/office location can be determined on long term data collection of geolocation and IP address
+
+- Group users based on geographic location and IP addresss for broader targeting (e.g., urban vs. rural).
+
+- Using IP address data to generate a model for fraud prevention
+    - Detect unusual IP activity to prevent fraudulent sign-ups or bonus abuse.
+    - Identify potential proxy or VPN usage by the user.
+
+-  If static ip addresses are being used within a company, we can create a profile of the company and then target it's users. Company ip addresses can be tracked easily with this as they generally get a static IP which doesn't change. This is very useful for B2B advertising as it allows us to target specific industries by matching IP addresses to company information.\
+
+- By getting data on frequency capping, we can determine the optimal frequency for showing ads to a user to avoid ad fatigue and optimize engagement.
+
+- Ad placement optimizations :we can determine which ad placements (above the fold, in-content, sidebar) perform best for different user segments.
+
+- Predictive analysis on historical data to predict which users are likely to churn and target them with retention campaigns.
+
+- Ad Fatigue Detection
+	- Ad Saturation Analysis: Monitor signs of ad fatigue and adjust ad frequency or creative to maintain user engagement.
+	- Creative Rotation: Implement creative rotation strategies to keep ads fresh and engaging.
+
+- Network and ISP Insights based on the IP addresses of the users
+	- Network Performance: Analyze the performance of ads across different internet service providers (ISPs) to identify potential issues and optimize delivery.
+	- Bandwidth Considerations: Tailor ad formats based on user bandwidth to ensure smooth delivery and optimal user experience
+--CLIPBOARD-ITEM--
+Derivable information from the data about the users:
+
+- What type of content user prefers(types of websites/app the user spends their time on e.g. news websites, sport websites,game apps etc)
+
+- By observing timestamps when the user is seeing the ad, we can potentially understand their typical browsing times within the app/site, at what times they are digitally active
+ 
+- User's device information can be used to target ads for specific devices e.g. IOS users can be shown ads for IOS apps or iphone cases.
+ 
+- User's location can be used to target ads for specific locations or to show ads for local businesses. e.g. A user near a KFC can be shown and ad for the same
+ 
+- User's device type can be used to target ads for specific device types e.g. mobile, tablet, desktop 
+ 
+- User's google generated ID can be used to identify if user has multiple devices and target ads for all devices. We can identify all the devices the user is using.
+
+- User profiling can help us categorize user's into various classes based on spending habits and interests, which can be collected by the conversion data of the user and the type of ads the user interacts with in the long run
+
+- Based on User's click history on ads, we can determine what sorts of ads user is interested in and show similar ads to the user and also find what the user is not interested in and avoid showing those ads to the user for a better CTR 
+
+- Based on the type of ad the user sees - Video/banner/native, we can determine what is the best type of ad for the user and show similar ad user in future based on the user's interaction with the add
+
+- Tracking device types and models over time can reveal trends in user device preferences. e.g. User may have a Samsung galaxy A5 and might have upgraded to the an Iphone in the future.
+
+- User's general living/office location can be determined on long term data collection of geolocation and IP address
+
+- Group users based on geographic location and IP addresss for broader targeting (e.g., urban vs. rural).
+
+- Using IP address data to generate a model for fraud prevention
+    - Detect unusual IP activity to prevent fraudulent sign-ups or bonus abuse.
+    - Identify potential proxy or VPN usage by the user.
+
+-  If static ip addresses are being used within a company, we can create a profile of the company and then target it's users. Company ip addresses can be tracked easily with this as they generally get a static IP which doesn't change. This is very useful for B2B advertising as it allows us to target specific industries by matching IP addresses to company information.\
+
+- By getting data on frequency capping, we can determine the optimal frequency for showing ads to a user to avoid ad fatigue and optimize engagement.
+
+- Ad placement optimizations :we can determine which ad placements (above the fold, in-content, sidebar) perform best for different user segments.
+
+- Predictive analysis on historical data to predict which users are likely to churn and target them with retention campaigns.
+
+- Ad Fatigue Detection
+	- Ad Saturation Analysis: Monitor signs of ad fatigue and adjust ad frequency or creative to maintain user engagement.
+	- Creative Rotation: Implement creative rotation strategies to keep ads fresh and engaging.
+
+- Network and ISP Insights based on the IP addresses of the users
+	- Network Performance: Analyze the performance of ads across different internet service providers (ISPs) to identify potential issues and optimize delivery.
+	- Bandwidth Considerations: Tailor ad formats based on user bandwidth to ensure smooth delivery and optimal user experience.
+--CLIPBOARD-ITEM--
+https://www.bikewale.com/ducati-bikes/scrambler-icon/
+--CLIPBOARD-ITEM--
+Benelli Leoncino 800
+--CLIPBOARD-ITEM--
+Stats don't update automatically
+Campaigns still over serving
+Line items still not implemented
+Sometimes pre-targets and google pre-targets don't autofill when editing campaigns
+Still haven't come across interstitial banners on mobile
+Waiting on feedback on testing of native ads
+Struggling to get leads on lead gen campaigns
+--CLIPBOARD-ITEM--
+P8ppu@8699
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+https://www.youtube.com/watch?v=LOLdnBP4dwM
+--CLIPBOARD-ITEM--
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "range": {
+                        "@timestamp": {
+                            "gte": "now-1m",
+                            "lte": "now"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "aggs": {
+        "field_values": {
+            "terms": {
+                "field": "adid.keyword",
+                "order": {
+                    "_count": "asc"
+                },
+                "size": 10
+            }
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/app/dev_tools#/console
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "terms": {
+                    "DistributionchannelOneof.App.name.keyword": [
+                      "Opera Mini: Fast Web Browser"
+                    ]
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+DistributionchannelOneof.App.name.keyword
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "terms": {
+                    "DistributionchannelOneof.App.name.keyword": [
+                      "Opera Mini: Fast Web Browser"
+                    ]
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+DistributionchannelOneof.App.bundle.keyword
+--CLIPBOARD-ITEM--
+advance-africa.com
+--CLIPBOARD-ITEM--
+"DistributionchannelOneof.App.content.url" : "*livescore*"
+--CLIPBOARD-ITEM--
+"DistributionchannelOneof.App.name.keyword": 
+--CLIPBOARD-ITEM--
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Apex Football*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+//Apex Football
+GET /bidder-requests/_search
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Apex Football*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Flash Score*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Futbol24*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Futbol24*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*LiveScore*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*ore Kenya*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+Scooper News: News Around You
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Scooper News: News Around You*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Scooper News: News Around You*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+BetMines Football Betting Tips
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*BetMines Football Betting Tips*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+All Goals - The Livescore App
+--CLIPBOARD-ITEM--
+Sofascore - Live sports scores
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Sofascore - Live sports scores*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*live sports tv*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+Football Predictions PrimaTips
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Football Predictions PrimaTips*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+ovh.sauzanaprod.predictionfootbis
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+All Goals - The Livescore App
+Sofascore - Live sports scores
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Soccer Predictions*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+StarTimes ON-Live TV, Footbal
+--CLIPBOARD-ITEM--
+com.star.mobile.video
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*StarTimes*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+com.primatips
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*Prima*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+de.motain.iliga
+--CLIPBOARD-ITEM--
+OneFootball - Football news
+--CLIPBOARD-ITEM--
+com.resultadosfutbol.mobile
+--CLIPBOARD-ITEM--
+com.devclev.forebet
+--CLIPBOARD-ITEM--
+GOAL - Football News & Scores
+--CLIPBOARD-ITEM--
+com.resultadosfutbol.mobile
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+com.resultadosfutbol.mobile
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+					
+	TOP NICHE BETTING AFFILIATED  PUBLISHERS		TOP BETTING AFFILIATED APPS 		
+	advance-africa.com		Apex Football: Live Scores		
+	opportunitiesforyoungkenyans.co.ke		FlashScore		
+	sofascore.com		Futbol24 – soccer live scores & results		
+	scooper.news		LiveScore: Live Sports Scores		
+	livescore.mob		FlashScore Kenya		
+	livescore.com		Scooper News: Local News & Viral Videos Around You		
+	forebet.com		BetMines Free Football Betting Tips & Predictions		
+	livescore.cz		Goal Live Scores		All Goals - The Livescore App
+	supersport		Football Scores and Sports Livescore - SofaScore		Sofascore - Live sports scores
+	dailysportx.com		SKORES - Live Football Scores		
+	m.gsmarena.com		live sports tv streaming		
+	us.soccerway.com		Soccer Predictions, statistics, bets	ovh.sauzanaprod.predictionfootbis	
+	givemesport.com		StarTimes ON - Live Football, TV, Movie & Drama	com.star.mobile.video	
+	api.sofascore.com		Football Predictions Prima Tips	com.primatips	
+	sportal.tips		OneFootball - Soccer News, Scores & Stats	de.motain.iliga	OneFootball - Football news
+	espn.com		BeSoccer - Soccer Live Score	com.resultadosfutbol.mobile	
+	dailysportx.com		Football Predictions Forebet	com.devclev.forebet	
+	m.gsmarena.com		Football News: By Fans		
+	findglocal.com		BeSoccer - Soccer Live Score	com.resultadosfutbol.mobile	
+	givemesport.com				
+	m.investing.com				
+	Futbol24 soccer live scores & results				
+	FlashScore				
+	feednews.com				
+	livescore.cz				
+	LiveScore: Live Sports Scores				
+	forebet.com				
+	livescore.com				
+	m.forebet.com				
+	soccerway.com				
+	livescore.mobi				
+	SKORES - Live Football Scores				
+	newsnow.co.uk				
+	sportskeeda.com				
+	BetMines Free Football Betting Tips & Predictions				
+	Football Scores and Sports Livescore - SofaScore				
+	football.london				
+	goal.com				
+	Live Football TV Euro				
+	sportsmole.co.uk				
+	ke.soccerway.com				
+	statarea.com				
+	skysports.com				
+	Today Match Prediction - Soccer Predictions				
+	footballpredictions.com				
+	live sports tv streaming				
+	bettingclosed.com				
+	apex-football.com				
+	lite.apex-football.com				
+	apexscores.io				
+	lite.apexscores.io				
+	operafootball.com				
+	apex-sports.com				
+					
+					
+					
+					
+					
+					
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+BeSoccer - Soccer Live Score
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.App.name.keyword": "*BeSoccer*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+ootball Predictions Forebet
+--CLIPBOARD-ITEM--
+Apex Football: Live Scores
+--CLIPBOARD-ITEM--
+com.opera.app.sports
+--CLIPBOARD-ITEM--
+"_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+--CLIPBOARD-ITEM--
+Flashscore live scores & news
+--CLIPBOARD-ITEM--
+eu.livesport.FlashScore_com
+--CLIPBOARD-ITEM--
+  "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+--CLIPBOARD-ITEM--
+Futbol24 soccer livescore app
+--CLIPBOARD-ITEM--
+com.gluak.f24
+--CLIPBOARD-ITEM--
+    "_source": ["DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"], 
+--CLIPBOARD-ITEM--
+LiveScore: Live Sports Scores
+--CLIPBOARD-ITEM--
+com.livescore
+--CLIPBOARD-ITEM--
+com.hatsune.eagleee
+--CLIPBOARD-ITEM--
+Scooper News: News Around You
+--CLIPBOARD-ITEM--
+BetMines Football Betting Tips
+--CLIPBOARD-ITEM--
+1477625153
+--CLIPBOARD-ITEM--
+Sofascore - Live sports scores
+--CLIPBOARD-ITEM--
+com.sofascore.results
+--CLIPBOARD-ITEM--
+BeSoccer - Soccer Live Score
+--CLIPBOARD-ITEM--
+Football Predictions PrimaTips
+--CLIPBOARD-ITEM--
+StarTimes ON-Live TV, Football
+--CLIPBOARD-ITEM--
+Soccer Predictions
+--CLIPBOARD-ITEM--
+com.tehzeeb.livesports.tv
+--CLIPBOARD-ITEM--
+live sports tv streaming
+--CLIPBOARD-ITEM--
+com.appscores.football
+--CLIPBOARD-ITEM--
+Skores - Live Scores & Results
+--CLIPBOARD-ITEM--
+com.allgoals.thelivescoreapp.android
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.Site.content.url"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.Site.content.url.keyword": "*gsmarena*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+us.soccerway.com
+--CLIPBOARD-ITEM--
+givemesport.com
+--CLIPBOARD-ITEM--
+m.investing.com
+--CLIPBOARD-ITEM--
++91 90541 86213
+--CLIPBOARD-ITEM--
+"DistributionchannelOneof.App.name","DistributionchannelOneof.App.bundle"
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+  "_source": ["DistributionchannelOneof.Site.content.url"], 
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.Site.content.producer.domain.keyword": "*givemesport.com*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/app/dev_tools#/console
+--CLIPBOARD-ITEM--
+Apex Football: Live Scores
+--CLIPBOARD-ITEM--
+or DistributionchannelOneof.App.name.keyword : "LiveScore: Live Sports Scores"
+--CLIPBOARD-ITEM--
+or DistributionchannelOneof.App.name.keyword : ""
+--CLIPBOARD-ITEM--
+DistributionchannelOneof.App.name.keyword : "Apex Football: Live Scores" or DistributionchannelOneof.App.name.keyword :"Flashscore live scores & news" or DistributionchannelOneof.App.name.keyword : "Futbol24 soccer livescore app" or DistributionchannelOneof.App.name.keyword : "LiveScore: Live Sports Scores" or DistributionchannelOneof.App.name.keyword : "Scooper News: News Around You" or DistributionchannelOneof.App.name.keyword : "BetMines Football Betting Tips" or DistributionchannelOneof.App.name.keyword : "All Goals - Football Live Scores" or DistributionchannelOneof.App.name.keyword : "Sofascore - Live sports scores" or DistributionchannelOneof.App.name.keyword : "Skores - Live Scores & Results" or DistributionchannelOneof.App.name.keyword : "live sports tv streaming" or DistributionchannelOneof.App.name.keyword : "Soccer Predictions" or DistributionchannelOneof.App.name.keyword : "StarTimes ON-Live TV, Football" or DistributionchannelOneof.App.name.keyword : "Football Predictions PrimaTips" or DistributionchannelOneof.App.name.keyword : "OneFootball - Football news" or DistributionchannelOneof.App.name.keyword : "BeSoccer - Soccer Live Score"
+--CLIPBOARD-ITEM--
+"_source": ["DistributionchannelOneof.Site.content.url"], 
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.Site.content.producer.domain.keyword": "*givemesport.com*"
+                  }
+                }
+            ]
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+"App": {
+      "name": "Opera Mini: Fast Web Browser",
+      "bundle": "com.opera.mini.native",
+      "publisher": {
+        "id": "pub-4721105574136909"
+      },
+      "content": {
+        "url": "https://stories.apexnews-af.com/news/detail/c17f5e250392150800031ed7be9f3e45",
+        "userrating": "4.4",
+        "livestream": false,
+        "language": "en"
+      }
+--CLIPBOARD-ITEM--
+Derivable information :
+
+- What type of content user prefers(types of publishers user visits the most e.g. news websites, sport websites)
+  can help in user profile generation- App and site preferences of the user can be determined
+- User's habits can be determined for profiling, on what site/app the user spends their time on
+- By observing timestamps when users see the ad, you can potentially understand their typical browsing times within the app/site
+- User's device information can be used to target ads for specific devices
+- User's location can be used to target ads for specific locations or to show ads for local businesses
+- User's device type can be used to target ads for specific device types e.g. mobile, tablet, desktop
+- User's google generated ID can be used to identify if user has multiple devices and target ads for all devices
+- User profiling can help us categorize user's into various classes based on spending habits and interests
+- Based on User's click history on ads, we can determine what sorts of ads user is interested in and show similar ads to the user and also find what
+  the user is not interested in and avoid showing those ads to the user
+- Based on the type of ad the user sees - Video/banner/native, we can determine what is the best type of ad for the user and show similar ads to the
+  user in future based on the user's interaction with the add
+- User's general living/office location can be determined on long term data collection of geolocation
+- Tracking device types and models over time can reveal trends in user device preferences
+--CLIPBOARD-ITEM--
+publisher information/website/app where user is viewing the ad:
+
+"name": "NovelUP —Novel Downloader",
+"bundle": "com.cloudview.novel",
+"publisher": {
+    "id": "pub-7178868422353721"
+},
+"content": {
+    "url": "https://m.novel-up.com/ns",
+    "userrating": "4.4",
+    "livestream": false,
+    "language": "en"
+}
+
+user device and geolocation information :
+
+
+"ip": "41.90.37.0",
+"devicetype": 4,
+"make": "Samsung",
+"model": "SM-A505F",
+"os": "android",
+"osv": "11",
+"w": 412,
+"h": 812,
+"pxratio": 2.625,
+"connectiontype": 2,
+"ifa": "ba85a62f-bbba-4a23-af87-0ec72610cec5"//DEVICE ID OF USER
+
+
+
+"geo": {
+   "lat": -4.04,
+   "lon": 39.67,
+   "country": "KEN",
+   "city": "Mombasa",
+   "type": 2,
+   "accuracy": 7327,
+   "utcoffset": 180
+},
+
+Derivable information :
+
+- What type of content user prefers(types of publishers user visits the most e.g. news websites, sport websites)
+  can help in user profile generation- App and site preferences of the user can be determined
+- User's habits can be determined for profiling, on what site/app the user spends their time on
+- By observing timestamps when users see the ad, you can potentially understand their typical browsing times within the app/site
+- User's device information can be used to target ads for specific devices
+- User's location can be used to target ads for specific locations or to show ads for local businesses
+- User's device type can be used to target ads for specific device types e.g. mobile, tablet, desktop
+- User's google generated ID can be used to identify if user has multiple devices and target ads for all devices
+- User profiling can help us categorize user's into various classes based on spending habits and interests
+- Based on User's click history on ads, we can determine what sorts of ads user is interested in and show similar ads to the user and also find what
+  the user is not interested in and avoid showing those ads to the user
+- Based on the type of ad the user sees - Video/banner/native, we can determine what is the best type of ad for the user and show similar ads to the
+  user in future based on the user's interaction with the add
+- User's general living/office location can be determined on long term data collection of geolocation
+- Tracking device types and models over time can reveal trends in user device preferences
+--CLIPBOARD-ITEM--
+Derivable information from the data about the users:
+
+- What type of content user prefers(types of websites/app the user spends their time on e.g. news websites, sport websites,game apps etc)
+
+- By observing timestamps when the user is seeing the ad, we can potentially understand their typical browsing times within the app/site, at what times they are digitally active
+ 
+- User's device information can be used to target ads for specific devices e.g. IOS users can be shown ads for IOS apps or iphone cases.
+ 
+- User's location can be used to target ads for specific locations or to show ads for local businesses. e.g. A user near a KFC can be shown and ad for the same
+ 
+- User's device type can be used to target ads for specific device types e.g. mobile, tablet, desktop 
+ 
+- User's google generated ID can be used to identify if user has multiple devices and target ads for all devices. We can identify all the devices the user is using.
+
+- User profiling can help us categorize user's into various classes based on spending habits and interests, which can be collected by the conversion data of the user and the type of ads the user interacts with in the long run
+
+- Based on User's click history on ads, we can determine what sorts of ads user is interested in and show similar ads to the user and also find what the user is not interested in and avoid showing those ads to the user for a better CTR 
+
+- Based on the type of ad the user sees - Video/banner/native, we can determine what is the best type of ad for the user and show similar ad user in future based on the user's interaction with the add
+
+- Tracking device types and models over time can reveal trends in user device preferences. e.g. User may have a Samsung galaxy A5 and might have upgraded to the an Iphone in the future.
+
+- User's general living/office location can be determined on long term data collection of geolocation and IP address
+
+- Group users based on geographic location and IP addresss for broader targeting (e.g., urban vs. rural).
+
+- Using IP address data to generate a model for fraud prevention
+    - Detect unusual IP activity to prevent fraudulent sign-ups or bonus abuse.
+    - Identify potential proxy or VPN usage by the user.
+
+-  If static ip addresses are being used within a company, we can create a profile of the company and then target it's users. Company ip addresses can be tracked easily with this as they generally get a static IP which doesn't change. This is very useful for B2B advertising as it allows us to target specific industries by matching IP addresses to company information.\
+
+- By getting data on frequency capping, we can determine the optimal frequency for showing ads to a user to avoid ad fatigue and optimize engagement.
+
+- Ad placement optimizations :we can determine which ad placements (above the fold, in-content, sidebar) perform best for different user segments.
+
+- Predictive analysis on historical data to predict which users are likely to churn and target them with retention campaigns.
+
+- Ad Fatigue Detection
+	- Ad Saturation Analysis: Monitor signs of ad fatigue and adjust ad frequency or creative to maintain user engagement.
+	- Creative Rotation: Implement creative rotation strategies to keep ads fresh and engaging.
+
+- Network and ISP Insights based on the IP addresses of the users
+	- Network Performance: Analyze the performance of ads across different internet service providers (ISPs) to identify potential issues and optimize delivery.
+	- Bandwidth Considerations: Tailor ad formats based on user bandwidth to ensure smooth delivery and optimal user experience.
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/app/lens#/?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15h,to:now))
+--CLIPBOARD-ITEM--
+Mozilla/5.0 (Linux; Android 14; CPH2591 Build/UP1A.230620.001; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/126.0.6478.135 Mobile Safari/537.36 (Mobile; afma-sdk-a-v242632038.242632038.0)
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+2024-07-23 20.29.55.jpg
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+DistributionchannelOneof.Site.content.url.keyword: * 
+--CLIPBOARD-ITEM--
+and device.sua.browsers.brand.keyword : "Google Chrome"
+--CLIPBOARD-ITEM--
+device.sua.browsers.brand.keyword : "Google Chrome"
+--CLIPBOARD-ITEM--
+743736
+--CLIPBOARD-ITEM--
+// query giving distribution of the betting apps
+GET /bidder-requests/_search
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                  "wildcard":{
+                    "DistributionchannelOneof.Site.content.producer.domain.keyword": "*givemesport.com*"
+                  }
+                }
+            ]
+        }
+    }
+}
+--CLIPBOARD-ITEM--
+https://support.google.com/authorizedbuyers/answer/9395028
+--CLIPBOARD-ITEM--
+{
+  "query": {
+    "exists": {
+      "field": "site.name.keyword"
+    }
+  },
+  "aggs": {
+    "top_browsers": {
+      "terms": {
+        "field": "device.browser.brand.keyword",
+        "size": 3
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+https://support.google.com/authorizedbuyers/answer/9395028
+--CLIPBOARD-ITEM--
+"query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "site.name.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.browser.brand.keyword": "*Mozilla*" } },
+              { "wildcard": { "device.browser.brand.keyword": "*Chrome*" } },
+              { "wildcard": { "device.browser.brand.keyword": "*Edge*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+--CLIPBOARD-ITEM--
+ "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "site.name.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.browser.brand.keyword": "*Mozilla*" } },
+              { "wildcard": { "device.browser.brand.keyword": "*Chrome*" } },
+              { "wildcard": { "device.browser.brand.keyword": "*Edge*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+--CLIPBOARD-ITEM--
+// get browser distribution data
+GET /bidder-requests/_search?size=0
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Mozilla*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Chrome*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Edge*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "top_browsers": {
+      "terms": {
+        "field": "device.sua.browsers.brand.keyword",
+        "size": 10
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+ "aggs": {
+    "marked_browsers": {
+      "terms": {
+        "script": {
+          "source": """
+            String brand = doc['device.browser.brand.keyword'].value;
+            if (brand.contains('Mozilla')) {
+              return 'M';
+            } else if (brand.contains('Chrome')) {
+              return 'C';
+            } else if (brand.contains('Edge')) {
+              return 'E';
+            } else {
+              return 'Other';
+            }
+          """,
+          "lang": "painless"
+        },
+        "size": 3
+      }
+    }
+  }
+--CLIPBOARD-ITEM--
+  {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Edge*"
+                }
+              }
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search?size=0
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Mozilla*"
+                }
+              },
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Chrome*"
+                }
+              },
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Edge*"
+                }
+              },
+                {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Safari*"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "marked_browsers": {
+      "terms": {
+        "script": {
+          "source": """
+            String brand = doc['device.sua.browsers.brand.keyword'].value;
+            if (brand.contains('Edge')) {
+              return 'E';
+            } else if (brand.contains('Chrome')) {
+              return 'C';
+            } else if (brand.contains('Safari')) {
+              return 'S';
+            } else if (brand.contains('Mozilla')) {
+              return 'M';
+            }
+          """,
+          "lang": "painless"
+        },
+        "size": 10
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+  String brand = doc['device.sua.browsers.brand.keyword'].value;
+            if (brand =~ /.*Edge.*/) {
+              return 'E';
+            } else if (brand =~ /.*Chrome.*/) {
+              return 'C';
+            } else if (brand =~ /.*Safari.*/) {
+              return 'S';
+            } else if (brand =~ /.*Mozilla.*/) {
+              return 'M';
+            } else {
+              return 'Other';
+            }
+--CLIPBOARD-ITEM--
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Mozilla*"
+                }
+              },
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Chrome*"
+                }
+              },
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Edge*"
+                }
+              },
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Safari*"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "marked_browsers": {
+      "terms": {
+        "script": {
+          "source": """
+            String brand = doc['device.sua.browsers.brand.keyword'].value;
+            if (brand =~ /.*Edge.*/) {
+              return 'E';
+            } else if (brand =~ /.*Chrome.*/) {
+              return 'C';
+            } else if (brand =~ /.*Safari.*/) {
+              return 'S';
+            } else if (brand =~ /.*Mozilla.*/) {
+              return 'M';
+            } else {
+              return 'Other';
+            }
+          """,
+          "lang": "painless"
+        },
+        "size": 10
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+{ "wildcard": { "device.sua.browsers.brand.keyword": "*Edge*" } }
+--CLIPBOARD-ITEM--
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Firefox*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Google Chrome*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Microsoft Edge*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Safari*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "top_browsers": {
+      "terms": {
+        "field": "device.sua.browsers.brand.keyword",
+        "size": 10
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+GET /bidder-requests/_search?size=0
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Mozilla*"
+                }
+              },
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Chrome*"
+                }
+              },
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Edge*"
+                }
+              },
+              {
+                "wildcard": {
+                  "device.sua.browsers.brand.keyword": "*Safari*"
+                }
+              }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "filtered_browsers": {
+      "filter": {
+        "bool": {
+          "should": [
+            { "term": { "device.sua.browsers.brand.keyword": "Edge" } },
+            { "term": { "device.sua.browsers.brand.keyword": "Chrome" } },
+            { "term": { "device.sua.browsers.brand.keyword": "Safari" } },
+            { "term": { "device.sua.browsers.brand.keyword": "Mozilla" } }
+          ]
+        }
+      },
+      "aggs": {
+        "marked_browsers": {
+          "terms": {
+            "script": {
+              "source": """
+                String brand = doc['device.sua.browsers.brand.keyword'].value;
+                if (brand == 'Edge') {
+                  return 'E';
+                } else if (brand == 'Chrome') {
+                  return 'C';
+                } else if (brand == 'Safari') {
+                  return 'S';
+                } else if (brand == 'Mozilla') {
+                  return 'M';
+                } else {
+                  return 'Other';
+                }
+              """,
+              "lang": "painless"
+            },
+            "size": 10
+          }
+        }
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Firefox*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Google Chrome*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Microsoft Edge*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Safari*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "top_browsers": {
+      "terms": {
+        "field": "device.sua.browsers.brand.keyword",
+        "size": 5
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/app/dev_tools#/console
+--CLIPBOARD-ITEM--
+// get browser distribution data
+GET /bidder-requests/_search?size=0
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Firefox*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Google Chrome*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Microsoft Edge*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Safari*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "top_browsers": {
+      "terms": {
+        "field": "device.sua.browsers.brand.keyword",
+        "size": 5
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Firefox*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Google Chrome*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Microsoft Edge*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Safari*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "top_browsers": {
+      "terms": {
+        "field": "device.sua.browsers.brand.keyword",
+        "size": 5
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/app/dev_tools#/console
+--CLIPBOARD-ITEM--
+[Not/A)Brand, Chromium, Google Chrome]
+--CLIPBOARD-ITEM--
+{
+  "size": 0, // We don't need any hits, just aggregations
+  "aggs": {
+    "browser_counts": {
+      "nested": {
+        "path": "device.sua.browsers.brand" // Path to the array field
+      },
+      "aggs": {
+        "brand_counts": {
+          "terms": {
+            "field": "device.sua.browsers.brand"
+          }
+        }
+      }
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+"query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Firefox*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Google Chrome*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Microsoft Edge*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Safari*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+--CLIPBOARD-ITEM--
+ {
+                    "key_as_string": "2024-07-23T00:00:00.000Z",
+                    "key": 1721692800000,
+                    "doc_count": 10049,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 3669,
+                        "buckets": [
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 2321
+                            },
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 563
+                            },
+                            {
+                                "key": "newsnow.co.uk",
+                                "doc_count": 330
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 325
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 265
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 233
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 178
+                            },
+                            {
+                                "key": "tunein.com",
+                                "doc_count": 162
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 143
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 123
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 115
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 90
+                            },
+                            {
+                                "key": "internationalcupid.com",
+                                "doc_count": 89
+                            },
+                            {
+                                "key": "mail.terra.com.br",
+                                "doc_count": 71
+                            },
+                            {
+                                "key": "tecno.servicewebly.com",
+                                "doc_count": 67
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 66
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 63
+                            },
+                            {
+                                "key": "real.com",
+                                "doc_count": 61
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 60
+                            },
+                            {
+                                "key": "afrointroductions.com",
+                                "doc_count": 57
+                            },
+                            {
+                                "key": "proprofs.com",
+                                "doc_count": 56
+                            },
+                            {
+                                "key": "manchestereveningnews.co.uk",
+                                "doc_count": 54
+                            },
+                            {
+                                "key": "bozoba.com",
+                                "doc_count": 48
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 46
+                            },
+                            {
+                                "key": "fdating.com",
+                                "doc_count": 45
+                            },
+                            {
+                                "key": "geeksforgeeks.org",
+                                "doc_count": 44
+                            },
+                            {
+                                "key": "livenewsmag.com",
+                                "doc_count": 40
+                            },
+                            {
+                                "key": "webmd.com",
+                                "doc_count": 38
+                            },
+                            {
+                                "key": "Lark Player:Music Player & MP3",
+                                "doc_count": 36
+                            },
+                            {
+                                "key": "mixcloud.com",
+                                "doc_count": 36
+                            },
+                            {
+                                "key": "newshub.co.ke",
+                                "doc_count": 35
+                            },
+                            {
+                                "key": "360links.net",
+                                "doc_count": 34
+                            },
+                            {
+                                "key": "tagged.com",
+                                "doc_count": 34
+                            },
+                            {
+                                "key": "Pocket FM: Audio Series",
+                                "doc_count": 33
+                            },
+                            {
+                                "key": "ndtv.com",
+                                "doc_count": 33
+                            },
+                            {
+                                "key": "britannica.com",
+                                "doc_count": 31
+                            },
+                            {
+                                "key": "mobile.ghanaweb.com",
+                                "doc_count": 29
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 27
+                            },
+                            {
+                                "key": "peopledaily.digital",
+                                "doc_count": 27
+                            },
+                            {
+                                "key": "Applock Pro - App Lock & Guard",
+                                "doc_count": 26
+                            },
+                            {
+                                "key": "chegg.com",
+                                "doc_count": 26
+                            },
+                            {
+                                "key": "housecultures.com",
+                                "doc_count": 26
+                            },
+                            {
+                                "key": "infinix.servicewebly.com",
+                                "doc_count": 25
+                            },
+                            {
+                                "key": "poki.com",
+                                "doc_count": 25
+                            },
+                            {
+                                "key": "scribd.com",
+                                "doc_count": 25
+                            },
+                            {
+                                "key": "Talkatone: WiFi Text & Calls",
+                                "doc_count": 24
+                            },
+                            {
+                                "key": "fmfix.co.ke",
+                                "doc_count": 24
+                            },
+                            {
+                                "key": "forebet.com",
+                                "doc_count": 24
+                            },
+                            {
+                                "key": "onlineradiobox.com",
+                                "doc_count": 24
+                            },
+                            {
+                                "key": "quizlet.com",
+                                "doc_count": 23
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T03:00:00.000Z",
+                    "key": 1721703600000,
+                    "doc_count": 17860,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 4667,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 4021
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 3557
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 446
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 330
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 319
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 275
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 266
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 266
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 259
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 230
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 222
+                            },
+                            {
+                                "key": "internationalcupid.com",
+                                "doc_count": 213
+                            },
+                            {
+                                "key": "avclub.com",
+                                "doc_count": 202
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 179
+                            },
+                            {
+                                "key": "afrointroductions.com",
+                                "doc_count": 176
+                            },
+                            {
+                                "key": "pngwing.com",
+                                "doc_count": 160
+                            },
+                            {
+                                "key": "tunein.com",
+                                "doc_count": 142
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 139
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 114
+                            },
+                            {
+                                "key": "kenyamoja.com",
+                                "doc_count": 105
+                            },
+                            {
+                                "key": "manchestereveningnews.co.uk",
+                                "doc_count": 104
+                            },
+                            {
+                                "key": "livenewsmag.com",
+                                "doc_count": 102
+                            },
+                            {
+                                "key": "jezebel.com",
+                                "doc_count": 91
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 82
+                            },
+                            {
+                                "key": "Applock Pro - App Lock & Guard",
+                                "doc_count": 78
+                            },
+                            {
+                                "key": "Lark Player:Music Player & MP3",
+                                "doc_count": 75
+                            },
+                            {
+                                "key": "newsnow.co.uk",
+                                "doc_count": 74
+                            },
+                            {
+                                "key": "radio.or.ke",
+                                "doc_count": 70
+                            },
+                            {
+                                "key": "standardmedia.co.ke",
+                                "doc_count": 68
+                            },
+                            {
+                                "key": "timesofindia.indiatimes.com",
+                                "doc_count": 62
+                            },
+                            {
+                                "key": "geeksforgeeks.org",
+                                "doc_count": 59
+                            },
+                            {
+                                "key": "WO Mic",
+                                "doc_count": 51
+                            },
+                            {
+                                "key": "forebet.com",
+                                "doc_count": 48
+                            },
+                            {
+                                "key": "kcserevision.com",
+                                "doc_count": 47
+                            },
+                            {
+                                "key": "express.co.uk",
+                                "doc_count": 46
+                            },
+                            {
+                                "key": "teacher.co.ke",
+                                "doc_count": 43
+                            },
+                            {
+                                "key": "apexnews-af.com",
+                                "doc_count": 42
+                            },
+                            {
+                                "key": "tecno.servicewebly.com",
+                                "doc_count": 42
+                            },
+                            {
+                                "key": "peopledaily.digital",
+                                "doc_count": 41
+                            },
+                            {
+                                "key": "webmd.com",
+                                "doc_count": 37
+                            },
+                            {
+                                "key": "Talkatone: WiFi Text & Calls",
+                                "doc_count": 36
+                            },
+                            {
+                                "key": "Opera browser with AI",
+                                "doc_count": 35
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 34
+                            },
+                            {
+                                "key": "tagged.com",
+                                "doc_count": 33
+                            },
+                            {
+                                "key": "caasimada.net",
+                                "doc_count": 32
+                            },
+                            {
+                                "key": "infinix.servicewebly.com",
+                                "doc_count": 30
+                            },
+                            {
+                                "key": "nairobiwire.com",
+                                "doc_count": 29
+                            },
+                            {
+                                "key": "operanewsapp.com",
+                                "doc_count": 29
+                            },
+                            {
+                                "key": "gizmodomno.icu",
+                                "doc_count": 27
+                            },
+                            {
+                                "key": "britannica.com",
+                                "doc_count": 25
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T06:00:00.000Z",
+                    "key": 1721714400000,
+                    "doc_count": 147348,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 36742,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 74906
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 6951
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 4260
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 2300
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 1409
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 1116
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 1007
+                            },
+                            {
+                                "key": "Audiomack - Play Music Offline",
+                                "doc_count": 983
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 920
+                            },
+                            {
+                                "key": "GoodNovel - Web Novel, Fiction",
+                                "doc_count": 877
+                            },
+                            {
+                                "key": "pngwing.com",
+                                "doc_count": 842
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 836
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 788
+                            },
+                            {
+                                "key": "standardmedia.co.ke",
+                                "doc_count": 774
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 771
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 698
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 672
+                            },
+                            {
+                                "key": "Words of Wonders: Crossword",
+                                "doc_count": 652
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 573
+                            },
+                            {
+                                "key": "mabumbe.com",
+                                "doc_count": 559
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 460
+                            },
+                            {
+                                "key": "poki.com",
+                                "doc_count": 421
+                            },
+                            {
+                                "key": "Boomplay: Music & Live Stream",
+                                "doc_count": 409
+                            },
+                            {
+                                "key": "avclub.com",
+                                "doc_count": 406
+                            },
+                            {
+                                "key": "tagged.com",
+                                "doc_count": 372
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 371
+                            },
+                            {
+                                "key": "Wood Screw Puzzle",
+                                "doc_count": 359
+                            },
+                            {
+                                "key": "Opera Mini: Fast Web Browser",
+                                "doc_count": 325
+                            },
+                            {
+                                "key": "Opera News: breaking & local",
+                                "doc_count": 317
+                            },
+                            {
+                                "key": "Wordscapes",
+                                "doc_count": 316
+                            },
+                            {
+                                "key": "afrointroductions.com",
+                                "doc_count": 308
+                            },
+                            {
+                                "key": "ajiratimes.com",
+                                "doc_count": 294
+                            },
+                            {
+                                "key": "Water Sort - Color Puzzle Game",
+                                "doc_count": 286
+                            },
+                            {
+                                "key": "newsnow.co.uk",
+                                "doc_count": 275
+                            },
+                            {
+                                "key": "PDF Reader - PDF Viewer",
+                                "doc_count": 271
+                            },
+                            {
+                                "key": "timesofindia.indiatimes.com",
+                                "doc_count": 270
+                            },
+                            {
+                                "key": "w3schools.com",
+                                "doc_count": 263
+                            },
+                            {
+                                "key": "manchestereveningnews.co.uk",
+                                "doc_count": 257
+                            },
+                            {
+                                "key": "zambianobserver.com",
+                                "doc_count": 245
+                            },
+                            {
+                                "key": "ajirayako.co.tz",
+                                "doc_count": 243
+                            },
+                            {
+                                "key": "tunein.com",
+                                "doc_count": 242
+                            },
+                            {
+                                "key": "Ball Sort - Color Puz Game",
+                                "doc_count": 239
+                            },
+                            {
+                                "key": "kenyamoja.com",
+                                "doc_count": 239
+                            },
+                            {
+                                "key": "britannica.com",
+                                "doc_count": 237
+                            },
+                            {
+                                "key": "geeksforgeeks.org",
+                                "doc_count": 234
+                            },
+                            {
+                                "key": "safetxt.net",
+                                "doc_count": 219
+                            },
+                            {
+                                "key": "All Document Reader - One Read",
+                                "doc_count": 211
+                            },
+                            {
+                                "key": "proprofs.com",
+                                "doc_count": 211
+                            },
+                            {
+                                "key": "Office App - DOCX, PDF, XLSX",
+                                "doc_count": 208
+                            },
+                            {
+                                "key": "forebet.com",
+                                "doc_count": 204
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T09:00:00.000Z",
+                    "key": 1721725200000,
+                    "doc_count": 254969,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 66610,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 79441
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 50634
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 5209
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 4972
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 4876
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 3480
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 3185
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 3145
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 2560
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 2320
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 2159
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 1632
+                            },
+                            {
+                                "key": "standardmedia.co.ke",
+                                "doc_count": 1613
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 1518
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 1346
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 1211
+                            },
+                            {
+                                "key": "mabumbe.com",
+                                "doc_count": 1207
+                            },
+                            {
+                                "key": "Applock Pro - App Lock & Guard",
+                                "doc_count": 969
+                            },
+                            {
+                                "key": "tecno.servicewebly.com",
+                                "doc_count": 962
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 811
+                            },
+                            {
+                                "key": "Lark Player:Music Player & MP3",
+                                "doc_count": 801
+                            },
+                            {
+                                "key": "pngwing.com",
+                                "doc_count": 719
+                            },
+                            {
+                                "key": "poki.com",
+                                "doc_count": 653
+                            },
+                            {
+                                "key": "afrointroductions.com",
+                                "doc_count": 624
+                            },
+                            {
+                                "key": "Futbol24 soccer livescore app",
+                                "doc_count": 598
+                            },
+                            {
+                                "key": "cdn.scoopernews.com",
+                                "doc_count": 593
+                            },
+                            {
+                                "key": "forebet.com",
+                                "doc_count": 586
+                            },
+                            {
+                                "key": "devid.info",
+                                "doc_count": 568
+                            },
+                            {
+                                "key": "apexnews-af.com",
+                                "doc_count": 563
+                            },
+                            {
+                                "key": "Opera Mini: Fast Web Browser",
+                                "doc_count": 535
+                            },
+                            {
+                                "key": "ajirayako.co.tz",
+                                "doc_count": 522
+                            },
+                            {
+                                "key": "GoodNovel - Web Novel, Fiction",
+                                "doc_count": 521
+                            },
+                            {
+                                "key": "kcserevision.com",
+                                "doc_count": 514
+                            },
+                            {
+                                "key": "onlineradiobox.com",
+                                "doc_count": 492
+                            },
+                            {
+                                "key": "BetsWall Football Betting Tips",
+                                "doc_count": 461
+                            },
+                            {
+                                "key": "infinix.servicewebly.com",
+                                "doc_count": 454
+                            },
+                            {
+                                "key": "newsnow.co.uk",
+                                "doc_count": 453
+                            },
+                            {
+                                "key": "britannica.com",
+                                "doc_count": 450
+                            },
+                            {
+                                "key": "mytuner-radio.com",
+                                "doc_count": 445
+                            },
+                            {
+                                "key": "Words of Wonders: Crossword",
+                                "doc_count": 436
+                            },
+                            {
+                                "key": "geeksforgeeks.org",
+                                "doc_count": 435
+                            },
+                            {
+                                "key": "scribd.com",
+                                "doc_count": 435
+                            },
+                            {
+                                "key": "javatpoint.com",
+                                "doc_count": 434
+                            },
+                            {
+                                "key": "tagged.com",
+                                "doc_count": 421
+                            },
+                            {
+                                "key": "apex-football.com",
+                                "doc_count": 418
+                            },
+                            {
+                                "key": "zambianobserver.com",
+                                "doc_count": 412
+                            },
+                            {
+                                "key": "wazaelimu.com",
+                                "doc_count": 396
+                            },
+                            {
+                                "key": "operanewsapp.com",
+                                "doc_count": 395
+                            },
+                            {
+                                "key": "PLAYit-All in One Video Player",
+                                "doc_count": 392
+                            },
+                            {
+                                "key": "Eerskraft",
+                                "doc_count": 383
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T12:00:00.000Z",
+                    "key": 1721736000000,
+                    "doc_count": 336181,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 81553,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 101791
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 70242
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 8835
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 7940
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 5256
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 5079
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 4904
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 4602
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 3963
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 3200
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 3017
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 2738
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 2145
+                            },
+                            {
+                                "key": "pngwing.com",
+                                "doc_count": 2063
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 1908
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 1885
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 1588
+                            },
+                            {
+                                "key": "Applock Pro - App Lock & Guard",
+                                "doc_count": 1524
+                            },
+                            {
+                                "key": "standardmedia.co.ke",
+                                "doc_count": 1390
+                            },
+                            {
+                                "key": "Lark Player:Music Player & MP3",
+                                "doc_count": 1241
+                            },
+                            {
+                                "key": "mabumbe.com",
+                                "doc_count": 1208
+                            },
+                            {
+                                "key": "tecno.servicewebly.com",
+                                "doc_count": 1073
+                            },
+                            {
+                                "key": "poki.com",
+                                "doc_count": 1039
+                            },
+                            {
+                                "key": "afrointroductions.com",
+                                "doc_count": 1030
+                            },
+                            {
+                                "key": "cdn.scoopernews.com",
+                                "doc_count": 833
+                            },
+                            {
+                                "key": "javatpoint.com",
+                                "doc_count": 796
+                            },
+                            {
+                                "key": "britannica.com",
+                                "doc_count": 763
+                            },
+                            {
+                                "key": "newsnow.co.uk",
+                                "doc_count": 744
+                            },
+                            {
+                                "key": "apexnews-af.com",
+                                "doc_count": 710
+                            },
+                            {
+                                "key": "forebet.com",
+                                "doc_count": 688
+                            },
+                            {
+                                "key": "tagged.com",
+                                "doc_count": 630
+                            },
+                            {
+                                "key": "infinix.servicewebly.com",
+                                "doc_count": 625
+                            },
+                            {
+                                "key": "apex-football.com",
+                                "doc_count": 606
+                            },
+                            {
+                                "key": "BetsWall Football Betting Tips",
+                                "doc_count": 593
+                            },
+                            {
+                                "key": "geeksforgeeks.org",
+                                "doc_count": 591
+                            },
+                            {
+                                "key": "businessdailyafrica.com",
+                                "doc_count": 589
+                            },
+                            {
+                                "key": "fdating.com",
+                                "doc_count": 573
+                            },
+                            {
+                                "key": "PLAYit-All in One Video Player",
+                                "doc_count": 508
+                            },
+                            {
+                                "key": "operanewsapp.com",
+                                "doc_count": 504
+                            },
+                            {
+                                "key": "zambianobserver.com",
+                                "doc_count": 504
+                            },
+                            {
+                                "key": "kenyamoja.com",
+                                "doc_count": 503
+                            },
+                            {
+                                "key": "ajirayako.co.tz",
+                                "doc_count": 495
+                            },
+                            {
+                                "key": "ajiratimes.com",
+                                "doc_count": 488
+                            },
+                            {
+                                "key": "gizmodomno.icu",
+                                "doc_count": 487
+                            },
+                            {
+                                "key": "webmd.com",
+                                "doc_count": 482
+                            },
+                            {
+                                "key": "en.cnetjkl.icu",
+                                "doc_count": 471
+                            },
+                            {
+                                "key": "manchestereveningnews.co.uk",
+                                "doc_count": 471
+                            },
+                            {
+                                "key": "kcserevision.com",
+                                "doc_count": 447
+                            },
+                            {
+                                "key": "m.tagged.com",
+                                "doc_count": 446
+                            },
+                            {
+                                "key": "citimuzik.com",
+                                "doc_count": 420
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T15:00:00.000Z",
+                    "key": 1721746800000,
+                    "doc_count": 319451,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 77423,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 107769
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 60219
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 7153
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 6414
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 5953
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 5885
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 4640
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 3933
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 3400
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 2324
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 2152
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 2146
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 2109
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 1790
+                            },
+                            {
+                                "key": "poki.com",
+                                "doc_count": 1690
+                            },
+                            {
+                                "key": "Applock Pro - App Lock & Guard",
+                                "doc_count": 1599
+                            },
+                            {
+                                "key": "pngwing.com",
+                                "doc_count": 1468
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 1265
+                            },
+                            {
+                                "key": "Lark Player:Music Player & MP3",
+                                "doc_count": 1138
+                            },
+                            {
+                                "key": "afrointroductions.com",
+                                "doc_count": 1101
+                            },
+                            {
+                                "key": "forebet.com",
+                                "doc_count": 924
+                            },
+                            {
+                                "key": "tecno.servicewebly.com",
+                                "doc_count": 922
+                            },
+                            {
+                                "key": "manchestereveningnews.co.uk",
+                                "doc_count": 864
+                            },
+                            {
+                                "key": "javatpoint.com",
+                                "doc_count": 849
+                            },
+                            {
+                                "key": "cdn.scoopernews.com",
+                                "doc_count": 733
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 727
+                            },
+                            {
+                                "key": "apex-football.com",
+                                "doc_count": 721
+                            },
+                            {
+                                "key": "webmd.com",
+                                "doc_count": 674
+                            },
+                            {
+                                "key": "apexnews-af.com",
+                                "doc_count": 658
+                            },
+                            {
+                                "key": "citizen.digital",
+                                "doc_count": 645
+                            },
+                            {
+                                "key": "kenyamoja.com",
+                                "doc_count": 640
+                            },
+                            {
+                                "key": "britannica.com",
+                                "doc_count": 638
+                            },
+                            {
+                                "key": "newsnow.co.uk",
+                                "doc_count": 592
+                            },
+                            {
+                                "key": "BetsWall Football Betting Tips",
+                                "doc_count": 557
+                            },
+                            {
+                                "key": "PLAYit-All in One Video Player",
+                                "doc_count": 543
+                            },
+                            {
+                                "key": "standardmedia.co.ke",
+                                "doc_count": 530
+                            },
+                            {
+                                "key": "gizmodomno.icu",
+                                "doc_count": 527
+                            },
+                            {
+                                "key": "MX Player",
+                                "doc_count": 523
+                            },
+                            {
+                                "key": "en.cnetjkl.icu",
+                                "doc_count": 513
+                            },
+                            {
+                                "key": "operanewsapp.com",
+                                "doc_count": 510
+                            },
+                            {
+                                "key": "tagged.com",
+                                "doc_count": 497
+                            },
+                            {
+                                "key": "businessdailyafrica.com",
+                                "doc_count": 494
+                            },
+                            {
+                                "key": "zambianobserver.com",
+                                "doc_count": 493
+                            },
+                            {
+                                "key": "citimuzik.com",
+                                "doc_count": 492
+                            },
+                            {
+                                "key": "infinix.servicewebly.com",
+                                "doc_count": 474
+                            },
+                            {
+                                "key": "geeksforgeeks.org",
+                                "doc_count": 465
+                            },
+                            {
+                                "key": "medicinenet.com",
+                                "doc_count": 437
+                            },
+                            {
+                                "key": "m.tagged.com",
+                                "doc_count": 427
+                            },
+                            {
+                                "key": "dramanovels.io",
+                                "doc_count": 407
+                            },
+                            {
+                                "key": "fctables.com",
+                                "doc_count": 404
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T18:00:00.000Z",
+                    "key": 1721757600000,
+                    "doc_count": 80369,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 25991,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 17737
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 14574
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 2594
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 2214
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 1519
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 1337
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 1240
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 1071
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 919
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 726
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 611
+                            },
+                            {
+                                "key": "Applock Pro - App Lock & Guard",
+                                "doc_count": 585
+                            },
+                            {
+                                "key": "Lark Player:Music Player & MP3",
+                                "doc_count": 538
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 519
+                            },
+                            {
+                                "key": "tecno.servicewebly.com",
+                                "doc_count": 462
+                            },
+                            {
+                                "key": "afrointroductions.com",
+                                "doc_count": 451
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 420
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 407
+                            },
+                            {
+                                "key": "zambianobserver.com",
+                                "doc_count": 333
+                            },
+                            {
+                                "key": "apex-football.com",
+                                "doc_count": 327
+                            },
+                            {
+                                "key": "fdating.com",
+                                "doc_count": 280
+                            },
+                            {
+                                "key": "MX Player",
+                                "doc_count": 266
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 263
+                            },
+                            {
+                                "key": "pngwing.com",
+                                "doc_count": 262
+                            },
+                            {
+                                "key": "webmd.com",
+                                "doc_count": 251
+                            },
+                            {
+                                "key": "Boomplay: Music & Live Stream",
+                                "doc_count": 245
+                            },
+                            {
+                                "key": "en.cnetjkl.icu",
+                                "doc_count": 238
+                            },
+                            {
+                                "key": "infinix.servicewebly.com",
+                                "doc_count": 230
+                            },
+                            {
+                                "key": "PLAYit-All in One Video Player",
+                                "doc_count": 215
+                            },
+                            {
+                                "key": "poki.com",
+                                "doc_count": 215
+                            },
+                            {
+                                "key": "kenyamoja.com",
+                                "doc_count": 190
+                            },
+                            {
+                                "key": "gizmodomno.icu",
+                                "doc_count": 188
+                            },
+                            {
+                                "key": "en.cnetjkl.lol",
+                                "doc_count": 184
+                            },
+                            {
+                                "key": "geeksforgeeks.org",
+                                "doc_count": 183
+                            },
+                            {
+                                "key": "newsnow.co.uk",
+                                "doc_count": 178
+                            },
+                            {
+                                "key": "pewauhondo.com",
+                                "doc_count": 177
+                            },
+                            {
+                                "key": "BetsWall Football Betting Tips",
+                                "doc_count": 176
+                            },
+                            {
+                                "key": "britannica.com",
+                                "doc_count": 173
+                            },
+                            {
+                                "key": "forebet.com",
+                                "doc_count": 171
+                            },
+                            {
+                                "key": "cdn.scoopernews.com",
+                                "doc_count": 169
+                            },
+                            {
+                                "key": "radio-south-africa.co.za",
+                                "doc_count": 168
+                            },
+                            {
+                                "key": "citimuzik.com",
+                                "doc_count": 167
+                            },
+                            {
+                                "key": "manchestereveningnews.co.uk",
+                                "doc_count": 160
+                            },
+                            {
+                                "key": "healthline.com",
+                                "doc_count": 153
+                            },
+                            {
+                                "key": "techradarvwx.icu",
+                                "doc_count": 153
+                            },
+                            {
+                                "key": "medicinenet.com",
+                                "doc_count": 150
+                            },
+                            {
+                                "key": "avclub.com",
+                                "doc_count": 149
+                            },
+                            {
+                                "key": "dramanovels.io",
+                                "doc_count": 148
+                            },
+                            {
+                                "key": "tagged.com",
+                                "doc_count": 148
+                            },
+                            {
+                                "key": "mashablepqr.icu",
+                                "doc_count": 144
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T21:00:00.000Z",
+                    "key": 1721768400000,
+                    "doc_count": 39252,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 17520,
+                        "buckets": [
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 4943
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 3453
+                            },
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 1240
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 1113
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 817
+                            },
+                            {
+                                "key": "radio-south-africa.co.za",
+                                "doc_count": 733
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 632
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 508
+                            },
+                            {
+                                "key": "tecno.servicewebly.com",
+                                "doc_count": 466
+                            },
+                            {
+                                "key": "spotify.com",
+                                "doc_count": 426
+                            },
+                            {
+                                "key": "Boomplay: Music & Live Stream",
+                                "doc_count": 379
+                            },
+                            {
+                                "key": "afrointroductions.com",
+                                "doc_count": 344
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 344
+                            },
+                            {
+                                "key": "zambianobserver.com",
+                                "doc_count": 341
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 333
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 322
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 287
+                            },
+                            {
+                                "key": "fdating.com",
+                                "doc_count": 286
+                            },
+                            {
+                                "key": "soccereco.com",
+                                "doc_count": 279
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 278
+                            },
+                            {
+                                "key": "infinix.servicewebly.com",
+                                "doc_count": 263
+                            },
+                            {
+                                "key": "Lark Player:Music Player & MP3",
+                                "doc_count": 255
+                            },
+                            {
+                                "key": "flyertalk.com",
+                                "doc_count": 221
+                            },
+                            {
+                                "key": "tagged.com",
+                                "doc_count": 220
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 193
+                            },
+                            {
+                                "key": "Applock Pro - App Lock & Guard",
+                                "doc_count": 164
+                            },
+                            {
+                                "key": "PLAYit-All in One Video Player",
+                                "doc_count": 164
+                            },
+                            {
+                                "key": "pngwing.com",
+                                "doc_count": 164
+                            },
+                            {
+                                "key": "Opera: AI browser with VPN",
+                                "doc_count": 162
+                            },
+                            {
+                                "key": "apex-football.com",
+                                "doc_count": 154
+                            },
+                            {
+                                "key": "MX Player",
+                                "doc_count": 146
+                            },
+                            {
+                                "key": "safetxt.net",
+                                "doc_count": 144
+                            },
+                            {
+                                "key": "scorebar.com",
+                                "doc_count": 138
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 126
+                            },
+                            {
+                                "key": "newshub.co.ke",
+                                "doc_count": 125
+                            },
+                            {
+                                "key": "forebet.com",
+                                "doc_count": 122
+                            },
+                            {
+                                "key": "gizmodomno.icu",
+                                "doc_count": 116
+                            },
+                            {
+                                "key": "jobsearchzm.com",
+                                "doc_count": 114
+                            },
+                            {
+                                "key": "en.cnetjkl.icu",
+                                "doc_count": 111
+                            },
+                            {
+                                "key": "manchestereveningnews.co.uk",
+                                "doc_count": 109
+                            },
+                            {
+                                "key": "wenxuecity.com",
+                                "doc_count": 108
+                            },
+                            {
+                                "key": "Audiomack - Play Music Offline",
+                                "doc_count": 103
+                            },
+                            {
+                                "key": "internationalcupid.com",
+                                "doc_count": 101
+                            },
+                            {
+                                "key": "medicinenet.com",
+                                "doc_count": 101
+                            },
+                            {
+                                "key": "recipetineats.com",
+                                "doc_count": 100
+                            },
+                            {
+                                "key": "webmd.com",
+                                "doc_count": 100
+                            },
+                            {
+                                "key": "chegg.com",
+                                "doc_count": 99
+                            },
+                            {
+                                "key": "pastemagazine.com",
+                                "doc_count": 96
+                            },
+                            {
+                                "key": "poki.com",
+                                "doc_count": 96
+                            },
+                            {
+                                "key": "MangaToon: Comic & Manga",
+                                "doc_count": 93
+                            }
+                        ]
+                    }
+                },
+--CLIPBOARD-ITEM--
+{
+                    "key_as_string": "2024-07-23T00:00:00.000Z",
+                    "key": 1721692800000,
+                    "doc_count": 121170,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 45406,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 51288
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 8932
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 3391
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 1978
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 1634
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 1228
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 999
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 932
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 923
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 917
+                            },
+                            {
+                                "key": "pngwing.com",
+                                "doc_count": 771
+                            },
+                            {
+                                "key": "Audiomack - Play Music Offline",
+                                "doc_count": 769
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 712
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 653
+                            },
+                            {
+                                "key": "GoodNovel - Web Novel, Fiction",
+                                "doc_count": 637
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T08:00:00.000Z",
+                    "key": 1721721600000,
+                    "doc_count": 762688,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 248194,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 251906
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 147397
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 15985
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 15071
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 12498
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 11664
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 10686
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 9282
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 7391
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 7032
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 6515
+                            },
+                            {
+                                "key": "kenyan-post.com",
+                                "doc_count": 5481
+                            },
+                            {
+                                "key": "freepik.com",
+                                "doc_count": 4882
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 4493
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 4211
+                            }
+                        ]
+                    }
+                },
+                {
+                    "key_as_string": "2024-07-23T16:00:00.000Z",
+                    "key": 1721750400000,
+                    "doc_count": 321621,
+                    "addId_histogram": {
+                        "doc_count_error_upper_bound": 0,
+                        "sum_other_doc_count": 125645,
+                        "buckets": [
+                            {
+                                "key": "Truecaller: Spam Call Blocker",
+                                "doc_count": 84274
+                            },
+                            {
+                                "key": "stories.apexnews-af.com",
+                                "doc_count": 57112
+                            },
+                            {
+                                "key": "dailymotion.com",
+                                "doc_count": 10679
+                            },
+                            {
+                                "key": "m.forebet.com",
+                                "doc_count": 8422
+                            },
+                            {
+                                "key": "cdn-af.feednews.com",
+                                "doc_count": 6214
+                            },
+                            {
+                                "key": "CallApp: Caller ID & Block",
+                                "doc_count": 5242
+                            },
+                            {
+                                "key": "myjobmag.co.ke",
+                                "doc_count": 4209
+                            },
+                            {
+                                "key": "the-star.co.ke",
+                                "doc_count": 4081
+                            },
+                            {
+                                "key": "Boomplay - Download Music MP3",
+                                "doc_count": 3301
+                            },
+                            {
+                                "key": "dailymail.co.uk",
+                                "doc_count": 2685
+                            },
+                            {
+                                "key": "chess.com",
+                                "doc_count": 2310
+                            },
+                            {
+                                "key": "yahoo.com",
+                                "doc_count": 2015
+                            },
+                            {
+                                "key": "Applock Pro - App Lock & Guard",
+                                "doc_count": 1859
+                            },
+                            {
+                                "key": "mail.yahoo.com",
+                                "doc_count": 1824
+                            },
+                            {
+                                "key": "kenyans.co.ke",
+                                "doc_count": 1749
+                            }
+                        ]
+                    }
+                },
+--CLIPBOARD-ITEM--
+vostrotrade@hdfcbank.com
+--CLIPBOARD-ITEM--
+Account Name: NOSTACKLABS PRIVATE LIMITED
+Account Number: 50200092977598
+IFSC Code: HDFC0003784
+--CLIPBOARD-ITEM--
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "exists": {
+            "field": "DistributionchannelOneof.Site.content.url.keyword"
+          }
+        },
+        {
+          "bool": {
+            "should": [
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Firefox*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Google Chrome*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Microsoft Edge*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Safari*" } }
+            ],
+            "minimum_should_match": 1
+          }
+        }
+      ]
+    }
+  },
+  "aggs": {
+    "filtered_browsers": {
+      "filter": {
+        "bool": {
+          "should": [
+            { "wildcard": { "device.sua.browsers.brand.keyword": "*Firefox*" } },
+            { "wildcard": { "device.sua.browsers.brand.keyword": "*Google Chrome*" } }
+          ],
+          "minimum_should_match": 1
+        }
+      },
+      "aggs": {
+        "top_browsers": {
+          "terms": {
+            "field": "device.sua.browsers.brand.keyword",
+            "size": 5
+          }
+        }
+      }
+    }
+  }
+}
+
+--CLIPBOARD-ITEM--
+ {
+          "range": {
+            "@timestamp": {
+              "gte": "now-24h",
+              "lte": "now"
+            }
+          }
+        }
+--CLIPBOARD-ITEM--
+11917
+--CLIPBOARD-ITEM--
+862
+--CLIPBOARD-ITEM--
+  { "wildcard": { "device.sua.browsers.brand.keyword": "*Firefox*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Google Chrome*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Microsoft Edge*" } },
+              { "wildcard": { "device.sua.browsers.brand.keyword": "*Safari*" } }
+--CLIPBOARD-ITEM--
+2459
+--CLIPBOARD-ITEM--
+2649
+--CLIPBOARD-ITEM--
+572
+--CLIPBOARD-ITEM--
+15996
+--CLIPBOARD-ITEM--
+668
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+DistributionchannelOneof.App.name.keyword : "Apex Football: Live Scores" or DistributionchannelOneof.App.name.keyword :"Flashscore live scores & news" or DistributionchannelOneof.App.name.keyword : "Futbol24 soccer livescore app" or DistributionchannelOneof.App.name.keyword : "LiveScore: Live Sports Scores" or DistributionchannelOneof.App.name.keyword : "Scooper News: News Around You" or DistributionchannelOneof.App.name.keyword : "BetMines Football Betting Tips" or DistributionchannelOneof.App.name.keyword : "All Goals - Football Live Scores" or DistributionchannelOneof.App.name.keyword : "Sofascore - Live sports scores" or DistributionchannelOneof.App.name.keyword : "Skores - Live Scores & Results" or DistributionchannelOneof.App.name.keyword : "live sports tv streaming" or DistributionchannelOneof.App.name.keyword : "Soccer Predictions" or DistributionchannelOneof.App.name.keyword : "StarTimes ON-Live TV, Football" or DistributionchannelOneof.App.name.keyword : "Football Predictions PrimaTips" or DistributionchannelOneof.App.name.keyword : "OneFootball - Football news" or DistributionchannelOneof.App.name.keyword : "BeSoccer - Soccer Live Score"
+--CLIPBOARD-ITEM--
+{ "wildcard": { "device.sua.browsers.brand.keyword": "*Safari*" } }
+--CLIPBOARD-ITEM--
+{ "wildcard": { "device.sua.browsers.brand.keyword": "*pera*" } }
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/app/lens#/edit_by_value?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15h,to:now))
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/
+--CLIPBOARD-ITEM--
+,
+--CLIPBOARD-ITEM--
+helm repo add bitnami https://charts.bitnami.com/bitnami
+--CLIPBOARD-ITEM--
+kubernetes
+--CLIPBOARD-ITEM--
+helm repo update
+--CLIPBOARD-ITEM--
+helm repo add bitnami https://charts.bitnami.com/bitnami
+--CLIPBOARD-ITEM--
+helm repo update
+--CLIPBOARD-ITEM--
+helm install my-redis bitnami/redis
+--CLIPBOARD-ITEM--
+helm install my-redis bitnami/redis -f custom-values.yaml
+--CLIPBOARD-ITEM--
+helm upgrade my-redis bitnami/redis -f custom-values.yaml
+--CLIPBOARD-ITEM--
+helm install my-redis bitnami/redis -f custom-values.yaml
+--CLIPBOARD-ITEM--
+helm upgrade my-redis bitnami/redis -f custom-values.yaml
+--CLIPBOARD-ITEM--
+
+--CLIPBOARD-ITEM--
+Thanks for this clarification, but what I want to confirm is that the branch in Mumbai from where the money is being routed to our account, is a Special Rupee Vostro account. 
+Also could you kindly confirm that the amount we receive comes under export of goods and services ? 
+
+Thanks
+Pratyush Thapliyal
+--CLIPBOARD-ITEM--
+Thanks for this clarification, but what I want to confirm is that the branch in Mumbai from where the money is being routed to our account, is a Special Rupee Vostro account.
+Also could you kindly confirm that the amount we receive comes under export of goods and services ?
+Thanks
+Pratyush Thapliyal
+--CLIPBOARD-ITEM--
+Thanks for this clarification, but what I want to confirm is that the branch in Mumbai from where the money is being routed to our account, is a Special Rupee Vostro account. 
+Since we are receiving emails from vostrotrade@hdfcbank.com , we were under the assumption that the money is being routed through a Special Rupee Vostro account.
+Also could you kindly confirm that the amount we receive comes under export of goods and services ? 
+
+Thanks
+Pratyush Thapliyal
+--CLIPBOARD-ITEM--
+Hourly rate:
+$13.6860
+--CLIPBOARD-ITEM--
+https://cloud.elastic.co/pricing?elektra=pricing-page
+--CLIPBOARD-ITEM--
+https://www.elastic.co/pricing
+--CLIPBOARD-ITEM--
+POST my-index/_delete_by_query
+{
+  "query": {
+    "bool": {
+      "must": [
+        {
+          "range": {
+            "@timestamp": {
+              "lte": "now-40h"
+            }
+          }
+        }
+      ]
+    }
+  }
+}
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/app/dashboards#/view/79cb3d50-4b0f-11ef-9d78-cbe71b200deb?_g=(filters:!(),refreshInterval:(pause:!t,value:60000),time:(from:now-15m,to:now))
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601
+--CLIPBOARD-ITEM--
+https://www.elastic.co/pricing
+https://cloud.elastic.co/pricing?elektra=pricing-page
+--CLIPBOARD-ITEM--
+https://cloud.elastic.co/pricing?elektra=pricing-page
+--CLIPBOARD-ITEM--
+However, in certain instances, receipt of consideration in INR is considered as receipt of foreign exchange. This happens in cases where there is a corresponding reduction in the outflow of foreign exchange. Just as money saved is money earned, saving of foreign exchange is also equivalent to earning of foreign exchange.
+--CLIPBOARD-ITEM--
+http://104.199.100.190:5601/app/home
+--CLIPBOARD-ITEM--
+61654d98-767f-4992-9832-009dc151274a
+--CLIPBOARD-ITEM--
+"query": {
+    "bool": {
+      "filter": [
+        {
+          "range": {
+            "@timestamp": {
+              "gte": "now-10m",
+              "lte":"now"
+            }
+          }
+        }
+      ]
+    }
+  },
+--CLIPBOARD-ITEM--
+F3670A30-6E1E-477D-8396-165502B8F0E8
+--CLIPBOARD-ITEM--
+https://www.youtube.com/watch?v=3Pw6cpYo4KE
+--CLIPBOARD-ITEM--
+1721865600
+--CLIPBOARD-ITEM--
+1721779200
+--CLIPBOARD-ITEM--
+{
+  "bidid": "EarpwPoPhRlHFyccGxaRRg",
+  "creativeId": "banner:8001165",
+  "adId": "sc-zambia-deposit",
+  "price": "ZqNwAAACPQcAAKuiABK67c7G7qt8NTgq2lo89g",
+  "decryptedPrice": 0.0001,
+  "timestamp": 1721987146,
+  "origin": "bidder-1"
+}
+--CLIPBOARD-ITEM--
+1721779200
+--CLIPBOARD-ITEM--
+adId
+--CLIPBOARD-ITEM--
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "terms": {
+                        "adId.keyword": [
+                            "travel-insurance-awareness"
+                        ]
+                    }
+                },
+                {
+                    "range": {
+                        "bidtime": {
+                            "gte": "1721779200"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "aggs": {
+        "clicks_over_time": {
+            "date_histogram": {
+                "field": "@timestamp",
+                "calendar_interval": "day",
+                "time_zone":"+03:00"// EAT 3 hours ahead of UTC
+            }
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+1721606400
+--CLIPBOARD-ITEM--
+{
+    "query": {
+        "bool": {
+            "filter": [
+                {
+                    "terms": {
+                        "adId.keyword": [
+                            "loop-thematic-campaign"
+                        ]
+                    }
+                },
+                {
+                    "range": {
+                        "@timestamp": {
+                            "gte": "1721779200"
+                        }
+                    }
+                }
+            ]
+        }
+    },
+    "aggs": {
+        "clicks_over_time": {
+            "date_histogram": {
+                "field": "@timestamp",
+                "calendar_interval": "day",
+                "time_zone":"+03:00"// EAT 3 hours ahead of UTC
+            }
+        }
+    }
+}
+
+--CLIPBOARD-ITEM--
+https://github.com/InteractiveAdvertisingBureau/AdCOM/blob/main/AdCOM%20v1.0%20FINAL.md#list--placement-positions-
+--CLIPBOARD-ITEM--
+	
+	
+	
+	
+
+--CLIPBOARD-ITEM--
+https://www.lazyvim.org
+--CLIPBOARD-ITEM--
+https://github.com/nvim-lualine/lualine.nvim
+--CLIPBOARD-ITEM--
